@@ -1,0 +1,61 @@
+header
+{
+    text-align: center;
+    
+}
+.head
+{
+    color: red;
+}
+nav
+{
+    text-align: center;
+
+}
+section
+{
+    text-align: center;
+}
+#home
+{
+    margin-right: 1%;
+}
+#about
+{
+    margin-left: 1%;
+}
+.home-1{
+    text-align: center;
+    color:mediumorchid;
+}
+#paragraph
+{
+    text-align: center;
+}
+.h3{
+    text-align: center;
+    color: gold;
+}
+.lists
+{
+    text-align: center;
+    
+}
+.value
+{
+    list-style-position:inside;
+}
+.img
+{
+    text-align: center;
+    width: 30%;
+}
+.title-3
+{
+  text-align: left;
+    color: gold;
+}
+.paragraph-2
+{
+    text-align: left;
+}
