@@ -1,0 +1,101 @@
+.container {
+  margin: auto 5% auto 5%;
+}
+header {
+  text-align: center;
+}
+section {
+  margin-top: -19.5px;
+  text-align: center;
+}
+section .search {
+  background-color: #eeeeee;
+  height: 62px;
+  
+}
+section .search .h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(63, 62, 62);
+  font-size: 1em;
+}
+section .search .input-div {
+  margin-top: -17px;
+}
+section .search .input-div .input {
+  width: 18.8%;
+  float: left;
+  margin: 0 40% auto 40%;
+}
+section .search .buttons .button {
+  height: 15%;
+  width: 6.7%;
+}
+section .boxs .box-1 {
+  height: 78px;
+  float: left;
+  background-color: #7ee5da;
+  width: 37%;
+}
+section .boxs {
+  margin-top: 0.1%;
+}
+section .boxs .box-1 .p-1 {
+  margin-top: 2%;
+}
+section .boxs .box-1 .p-2,
+.p-3 {
+  margin-top: -15px;
+}
+
+section .boxs .box-2 {
+  height: 78px;
+  float: left;
+  background-color: #70ccc2;
+  width: 19.8%;
+  margin-left: 0.1%;
+}
+section .boxs .box-2 .p-4 {
+  margin-top: 2%;
+  font-size: 0.9em;
+}
+section .boxs .box-2 .p-5,
+.p-6,
+.p-7 {
+  margin-top: -15px;
+  font-size: 0.9em;
+}
+
+section .boxs .box-3 {
+  height: 78px;
+  float: left;
+  background-color: #62b3aa;
+  width: 43%;
+  margin-left: 0.1%;
+}
+
+section .boxs .box-3 .p-8 {
+  margin-top: 0.2%;
+  font-size: 0.8em;
+}
+section .boxs .box-3 .p-9 {
+  font-size: 0.9em;
+  margin-top: -11px;
+}
+section .boxs .box-3 .input-email {
+  margin-top: -15px;
+}
+section .boxs .box-3 .subscribe {
+  text-align: center;
+  margin-right: 50px;
+}
+section .boxs .box-3 .p-10 {
+  text-align: center;
+  margin-top: -17px;
+  margin-left: 93px;
+  font-size: 0.8em;
+}
+footer{
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 5.7%;
+}
