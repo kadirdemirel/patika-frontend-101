@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      tr,
+      td,
+      th {
+        border: 1px solid black;
+      }
+      table {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5em;
+      }
+      th,
+      td {
+        padding: 10px;
+      }
+      thead tr {
+        background: green;
+        color: white;
+      }
+      tbody tr {
+        text-align: center;
+      }
+      tbody tr:nth-child(even) {
+        background: #f2f2f2;
+      }
+      tbody tr:hover {
+        background: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="employees">
+      <thead>
+        <tr>
+          <th>Ad</th>
+          <th>Departman</th>
+          <th>Maaş</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Kadir</td>
+          <td>Yazılım</td>
+          <td>25K $</td>
+        </tr>
+        <tr>
+          <td>Kadir</td>
+          <td>Yazılım</td>
+          <td>25K $</td>
+        </tr>
+        <tr>
+          <td>Kadir</td>
+          <td>Yazılım</td>
+          <td>25K $</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

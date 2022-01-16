@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        /* align-items: center; */
+        min-height: 600px;
+        background: black;
+      }
+      .box {
+        text-align: center;
+        background: #f2f2f2;
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+      }
+      .box-1 {
+        /* order: 3; */
+        background: red;
+        /* flex-grow: 1; */
+      }
+      .box-2 {
+        /* order: 1; */
+        background: blue;
+        /* align-self: flex-start; */
+        /* flex-grow: 1; */
+      }
+      .box-3 {
+        /* order: 2; */
+        background: green;
+        /* flex-grow: 3; */
+       
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Flex Container -->
+
+    <div class="container">
+      <div class="box box-1">
+        <h1>Article 1</h1>
+        <p>Lorem.</p>
+      </div>
+      <div class="box box-2">
+        <h1>Article 1</h1>
+        <p>Lorem.</p>
+      </div>
+      <div class="box box-3">
+        <h1>Article 1</h1>
+        <p>Lorem.</p>
+      </div>
+    </div>
+  </body>
+</html>
